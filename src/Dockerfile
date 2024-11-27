@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.14.0a2-alpine
 
 # Install AWS CLI
 RUN pip install awscli --upgrade
